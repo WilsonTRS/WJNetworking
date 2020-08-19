@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WJNetworking (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WJNetworking (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WJNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WJNetworking: 44cf4939459ec6b0e3663b973c9e5df0420b8831
+
+PODFILE CHECKSUM: 1caa3691e45b9e7fad9d37b2c59e63670709b34a
+
+COCOAPODS: 1.9.3
