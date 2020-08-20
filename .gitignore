@@ -1,6 +1,10 @@
 # OS X
 .DS_Store
 
+*.xcuserstate
+*.xcworkspace
+xcuserdata
+*.lock
 # Xcode
 build/
 *.pbxuser
