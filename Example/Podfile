@@ -4,7 +4,7 @@ platform :ios, '8.0'
 
 target 'WJNetworking_Example' do
   pod 'WJNetworking', :path => '../'
-
+  pod 'AFNetworking', '~> 3.1'
   target 'WJNetworking_Tests' do
     inherit! :search_paths
 

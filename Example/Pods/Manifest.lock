@@ -1,17 +1,35 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - WJNetworking (0.1.0)
+  - WJNetworking (0.2.0):
+    - AFNetworking (~> 3.1)
 
 DEPENDENCIES:
+  - AFNetworking (~> 3.1)
   - FBSnapshotTestCase
   - WJNetworking (from `../`)
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
@@ -19,9 +37,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  WJNetworking: 44cf4939459ec6b0e3663b973c9e5df0420b8831
+  WJNetworking: e1ce51b15c58313b0d3fcd3a55ae3f916f92c888
 
-PODFILE CHECKSUM: 1caa3691e45b9e7fad9d37b2c59e63670709b34a
+PODFILE CHECKSUM: e872c1a6ad6b5660476b37e457efffd26bd8b13a
 
 COCOAPODS: 1.9.3
